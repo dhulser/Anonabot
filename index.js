@@ -100,7 +100,7 @@ controller.hears(['(.*)'],'direct_message', function(bot, message){
     console.log('-------Your Message------', yourmessage)
 
     botAPI.startRTM((err, bot, payload) => {  
-    bot.say({text: yourmessage, channel:"C033UHJ0S"}) 
+    bot.say({text: yourmessage, channel:"C0QHYN0LX"}) 
                                             });
     
 });
