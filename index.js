@@ -97,6 +97,7 @@ const botAPI = controller.spawn({
 
 controller.hears(['(.*)'],'direct_message', function(bot, message){
     var yourmessage = message.text
+    
     console.log('-------Your Message------', yourmessage)
 
     botAPI.startRTM((err, bot, payload) => {  
